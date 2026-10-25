@@ -1,0 +1,8 @@
+# Security settings are here because pnpm 11 reads only registry/auth from .npmrc.
+ignoreScripts: true
+verifyStoreIntegrity: true
+strictSsl: true
+engineStrict: true
+saveExact: true
+fetchTimeout: 300000
+pmOnFail: ignore
